@@ -1,6 +1,6 @@
-# FrozenByte Utils
+# Frozenbyte Utils
 
-A collection of tools and ressources related to FrozenByte game engine and Starbase files.
+A collection of tools and ressources related to Frozenbyte game engine and Starbase files.
 
 Disclaimer: I am not affiliated with Frozenbyte Inc and the ressources available here are only for educational purposes. If you are a Frozenbyte employee and wishes to contact me, please ping/DM me on Discord: `slaynash`.
 
@@ -8,24 +8,24 @@ Everything available here is based on Shadwen from 2016 and Starbase 922 (may 20
 
 # Tools
 
-### CPP: starbase_mod_proxy
+### [C++: starbase mod proxy](Starbase-CPP/starbase_mod_proxy)
 
 Based on MelonLoader, generates a proxy DLL file used to load starbase_mod_loader
 
-### CPP: starbase_mod_loader
+### [C++: starbase mod loader](Starbase-CPP/starbase_mod_loader)
 
 Based on MelonLoader, the only file really interfacing with Starbase as of now is SBTest/FinenameHasherHook.cpp`.<br>
 This file is a mess of tests, but there might is some interesting things in it.
 
-### CPP: FBUFDecrypt
+### [C++: FBUF Decrypt](Starbase-CPP/FBUFDecrypt)
 
 Decrypt some game files like ships, config and cache.
 
-### CS: FDBUtils
+### [C#: FDB Utils](Starbase-CS/FDBUtils)
 
 Extract and decompress game files listed in the FDB file (untested on Trine 5). Note that this is 70GB+ of data on Starbase.
 
-### CS: FBEUtils
+### [C#: FBE Utils](Starbase-CS/FBEUtils)
 
 Extract `PACKED_ZSTD` files (including .fbe files) into `PACKED_DATA` files.
 This can also partially read datas from .fbe files (maps).<br>
