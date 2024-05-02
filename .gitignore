@@ -1,0 +1,7 @@
+**/.vs
+
+FBUtils-CS/**/bin/
+FBUtils-CS/**/obj/
+
+Starbase-CPP/Output/
+Starbase-CPP/**/x64/

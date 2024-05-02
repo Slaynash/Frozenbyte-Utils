@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "starbase_mod_proxy", "starbase_mod_proxy\starbase_mod_proxy.vcxproj", "{A91685D2-02F3-48E5-8D22-50D55C68C092}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "starbase_mod_loader", "starbase_mod_loader\starbase_mod_loader.vcxproj", "{2F58F844-E711-435B-B326-19A20D65D509}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FBUFDecrypt", "FBUFDecrypt\FBUFDecrypt.vcxproj", "{C880AADF-9A7A-47A5-85F9-23F833A9CFB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A91685D2-02F3-48E5-8D22-50D55C68C092}.Debug|x64.ActiveCfg = Debug|x64
+		{A91685D2-02F3-48E5-8D22-50D55C68C092}.Debug|x64.Build.0 = Debug|x64
+		{A91685D2-02F3-48E5-8D22-50D55C68C092}.Debug|x86.ActiveCfg = Debug|Win32
+		{A91685D2-02F3-48E5-8D22-50D55C68C092}.Debug|x86.Build.0 = Debug|Win32
+		{A91685D2-02F3-48E5-8D22-50D55C68C092}.Release|x64.ActiveCfg = Release|x64
+		{A91685D2-02F3-48E5-8D22-50D55C68C092}.Release|x64.Build.0 = Release|x64
+		{A91685D2-02F3-48E5-8D22-50D55C68C092}.Release|x86.ActiveCfg = Release|Win32
+		{A91685D2-02F3-48E5-8D22-50D55C68C092}.Release|x86.Build.0 = Release|Win32
+		{2F58F844-E711-435B-B326-19A20D65D509}.Debug|x64.ActiveCfg = Debug|x64
+		{2F58F844-E711-435B-B326-19A20D65D509}.Debug|x64.Build.0 = Debug|x64
+		{2F58F844-E711-435B-B326-19A20D65D509}.Debug|x86.ActiveCfg = Debug|Win32
+		{2F58F844-E711-435B-B326-19A20D65D509}.Debug|x86.Build.0 = Debug|Win32
+		{2F58F844-E711-435B-B326-19A20D65D509}.Release|x64.ActiveCfg = Release|x64
+		{2F58F844-E711-435B-B326-19A20D65D509}.Release|x64.Build.0 = Release|x64
+		{2F58F844-E711-435B-B326-19A20D65D509}.Release|x86.ActiveCfg = Release|Win32
+		{2F58F844-E711-435B-B326-19A20D65D509}.Release|x86.Build.0 = Release|Win32
+		{C880AADF-9A7A-47A5-85F9-23F833A9CFB3}.Debug|x64.ActiveCfg = Debug|x64
+		{C880AADF-9A7A-47A5-85F9-23F833A9CFB3}.Debug|x64.Build.0 = Debug|x64
+		{C880AADF-9A7A-47A5-85F9-23F833A9CFB3}.Debug|x86.ActiveCfg = Debug|Win32
+		{C880AADF-9A7A-47A5-85F9-23F833A9CFB3}.Debug|x86.Build.0 = Debug|Win32
+		{C880AADF-9A7A-47A5-85F9-23F833A9CFB3}.Release|x64.ActiveCfg = Release|x64
+		{C880AADF-9A7A-47A5-85F9-23F833A9CFB3}.Release|x64.Build.0 = Release|x64
+		{C880AADF-9A7A-47A5-85F9-23F833A9CFB3}.Release|x86.ActiveCfg = Release|Win32
+		{C880AADF-9A7A-47A5-85F9-23F833A9CFB3}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D73A83F-F7BF-490F-93BF-262D7A32C17A}
+	EndGlobalSection
+EndGlobal
